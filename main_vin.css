@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+ h1 {
+ 	font-family: 'Quicksand';
+ 	font-size: 4em;
+
+ }
+
+ p {
+ 	font-family: 'Quicksand';
+ 	font-size: 1.25em;
+ }
+
+ table {
+ 	margin-left: 70px;
+ 	margin-right: 70px;
+ 	border: 1px  ;
+ }
+
+ a.email{
+ 	font-family: 'Quicksand';
+ }
+
+ a {
+     display: inline-block;
+     text-decoration: none;
+ 	padding: 45;
+ 	font-family: 'Quicksand';
+ 	font-size: 1.25em;
+ }
+ tr {
+ 	font-weight: normal;
+ 	font-family: 'Quicksand';
+ 	color: #003262;
+ 	font-size: 1.25em;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	line-height: 1.6em;
+ 	letter-spacing: 1px;
+ 	line-height: 1.6em;
+ }
+
+ .boxed {
+ 	border: 1px solid #aaaaaa;
+ }
+
+ img {
+ 	width: 64px;
+ 	height: 64px;
+
+ }
+
+ ul {
+ 	list-style-type: none;
+ 	margin-right:  30px;
+ 	margin-left: 30px;
+ }
+
+ li {
+ 	font-weight: normal;
+ 	font-family: 'Quicksand';
+ 	color: #003262;
+ 	font-size: 1.25em;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	line-height: 1.6em;
+ 	letter-spacing: 1px;
+ 	line-height: 1.6em;
+ 	padding-top: 1px;
+ 	border-top: thin solid #aaaaaa
+ }
+
+ .ptitle {
+ 	font-size: 1.3em;
+ 	/*color: #FF5714;*/
+
+ }
+
+ .links {
+ 	float: center;
+ 	color: black;
+ 	text-decoration: none;
+ 	font-size: 17.5px;
+ 	font-family: 'Quicksand';
+   }
+
+ .navbar a {
+   float: center;
+   color: black;
+   text-decoration: none;
+   font-size: 17.5px;
+   font-family: 'Quicksand';
+ }
+
+ .links :hover {
+ 	color: black;
+   background-color: rgb(228, 186, 215);
+ }
+
+ .links :active {
+ 	color: black;
+   background-color: rgb(228, 186, 215);
+ }
+
+ /* Solid border */
+ hr.dotted {
+ 	border-top: 3px dotted #bbb;
+   }
+
+   * {
+ 	box-sizing: content-box;
+   }
+
+   .row {
+ 	display: flex;
+   }
+
+   /* Create two equal columns that sits next to each other */
+   .column {
+ 	flex: 500%;
+ 	padding: 10px;
+   }
+   .button:hover {background-color: gray;}
