@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import NeuralNetwork from '@/components/NeuralNetwork';
 
 export default function Home() {
   const [displayedText, setDisplayedText] = useState('');
@@ -22,8 +23,9 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-12">
-      <div className="max-w-4xl mx-auto">
+    <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-12 relative">
+      <NeuralNetwork />
+      <div className="max-w-4xl mx-auto relative z-10">
         {/* Terminal Header */}
         <div className="mb-8 border border-green-500/30 rounded-lg overflow-hidden bg-black/40 backdrop-blur-sm">
           <div className="bg-green-500/10 px-4 py-2 border-b border-green-500/30 flex items-center gap-2">
