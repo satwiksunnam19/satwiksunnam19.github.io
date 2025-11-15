@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import ParticleSystem from '@/components/ParticleSystem';
+import SubtleOrbs from '@/components/SubtleOrbs';
 
 interface BlogPost {
   id: number;
@@ -73,7 +73,7 @@ export default function Blog() {
 
   return (
     <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-12 relative">
-      <ParticleSystem density={2} maxParticles={100} showConnections={true} />
+      <SubtleOrbs count={10} />
       <div className="max-w-4xl mx-auto relative z-10">
         {/* Header */}
         <div className="mb-8">
