@@ -51,9 +51,9 @@ export default function Home() {
             </div>
 
             <div className="space-y-2 text-gray-300 mb-6">
-              <p><span className="text-green-500">Role:</span> ML Engineer & Full-Stack Developer</p>
-              <p><span className="text-green-500">Specialization:</span> Deep Learning, Computer Vision, Web Development</p>
-              <p><span className="text-green-500">Status:</span> <span className="text-yellow-400">Building intelligent systems</span></p>
+              <p><span className="text-green-500">Role:</span> Research Assistant & AI Engineer</p>
+              <p><span className="text-green-500">Specialization:</span> Deep Learning, Computer Vision, NLP</p>
+              <p><span className="text-green-500">Status:</span> <span className="text-yellow-400">Researching diffusion models for LLMs @ UB</span></p>
             </div>
 
             <div className="mb-4">
@@ -67,9 +67,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
               {[
                 { category: 'ML/DL', items: ['PyTorch', 'TensorFlow', 'Computer Vision', 'NLP'] },
-                { category: 'Languages', items: ['Python', 'JavaScript', 'TypeScript', 'Go'] },
-                { category: 'Web', items: ['React', 'Next.js', 'Node.js', 'Tailwind'] },
-                { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Linux'] },
+                { category: 'Languages', items: ['Python', 'C++', 'Java', 'Git'] },
+                { category: 'Cloud', items: ['AWS', 'GCP', 'Docker', 'Jupyter'] },
+                { category: 'AI/ML', items: ['Deep Learning', 'Machine Learning', 'NLP', 'Computer Vision'] },
               ].map((skill, idx) => (
                 <div key={idx} className="border border-green-500/30 rounded p-3 bg-green-500/5">
                   <p className="text-green-400 text-sm mb-2">./{skill.category}/</p>
@@ -127,13 +127,15 @@ export default function Home() {
             <span className="text-green-500"># </span>About Me
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
-            I'm a passionate ML Engineer and Full-Stack Developer with expertise in building intelligent systems
-            and scalable web applications. My work spans from deep learning models for computer vision tasks
-            to creating seamless user experiences on the web.
+            I'm a Master's student in Artificial Intelligence at the University of Bridgeport with a strong background
+            in deep learning, computer vision, and NLP. Currently working as a Research Assistant developing
+            diffusion-based techniques for enhancing LLM embeddings, and as a Deep Learning Research Intern at
+            Carnegie Mellon University's Xu Lab focusing on Cryo-Electron Tomography Classification.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            Currently focused on pushing the boundaries of AI applications, with a special interest in
-            computer vision, natural language processing, and physics-informed machine learning models.
+            My experience spans AI engineering, machine learning, and data engineering roles across multiple startups
+            and research institutions. I've worked on projects ranging from medical imaging with Vision Transformers
+            to AI-powered communication platforms and Stable Diffusion model fine-tuning.
           </p>
         </div>
       </div>

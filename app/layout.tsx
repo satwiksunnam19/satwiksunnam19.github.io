@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Satwik Sunnam | ML Engineer & Developer",
-  description: "Portfolio of Satwik Sunnam - Machine Learning Engineer, Deep Learning Researcher, and Full-Stack Developer",
+  title: "Satwik Sunnam | AI Researcher & Engineer",
+  description: "Portfolio of Satwik Sunnam - AI Researcher at University of Bridgeport & Carnegie Mellon University, specializing in Deep Learning, Computer Vision, and NLP",
 };
 
 export default function RootLayout({

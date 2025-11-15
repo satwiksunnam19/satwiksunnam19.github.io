@@ -31,10 +31,10 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/yourusername', icon: 'gh' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername', icon: 'in' },
-    { name: 'Twitter', url: 'https://twitter.com/yourusername', icon: 'tw' },
-    { name: 'Email', url: 'mailto:your.email@example.com', icon: '@' },
+    { name: 'GitHub', url: 'https://github.com/satwiksunnam19', icon: 'gh' },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/satwik-sunnam', icon: 'in' },
+    { name: 'Kaggle', url: 'https://www.kaggle.com/satwiksunnam', icon: 'kg' },
+    { name: 'Email', url: 'mailto:sunnamsatwik19@gmail.com', icon: '@' },
   ];
 
   return (
@@ -156,16 +156,16 @@ export default function Contact() {
               </h2>
               <div className="space-y-3 text-sm font-mono">
                 <p className="text-gray-300">
-                  <span className="text-green-500">Location:</span> San Francisco, CA
+                  <span className="text-green-500">Location:</span> Bridgeport, Connecticut, USA
                 </p>
                 <p className="text-gray-300">
-                  <span className="text-green-500">Timezone:</span> PST (UTC-8)
+                  <span className="text-green-500">Timezone:</span> EST (UTC-5)
                 </p>
                 <p className="text-gray-300">
-                  <span className="text-green-500">Response:</span> Usually within 24 hours
+                  <span className="text-green-500">Phone:</span> +1 203-540-6650
                 </p>
                 <p className="text-gray-300">
-                  <span className="text-green-500">Availability:</span> Open to opportunities
+                  <span className="text-green-500">Status:</span> Research Assistant @ UB
                 </p>
               </div>
             </div>

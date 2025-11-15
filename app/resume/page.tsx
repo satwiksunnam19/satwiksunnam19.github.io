@@ -1,50 +1,82 @@
 export default function Resume() {
   const experience = [
     {
-      role: 'Machine Learning Engineer',
-      company: 'Tech Company',
-      period: '2023 - Present',
-      description: 'Developing deep learning models for computer vision and NLP tasks. Leading ML infrastructure and deployment initiatives.',
+      role: 'Research Assistant',
+      company: 'University Of Bridgeport',
+      period: 'September 2024 - Present',
+      description: 'Developing framework for applying diffusion-based techniques to enhance embeddings in large language models.',
       achievements: [
-        'Built production-ready ML models serving 100K+ users',
-        'Reduced model inference time by 40% through optimization',
-        'Implemented MLOps pipeline for automated model deployment',
+        'Developed diffusion-based framework inspired by "Adversarial Purification via Diffusion Models"',
+        'Investigated reverse-diffusion processes to improve LLM responses and semantic relevance',
+        'Optimizing framework to enhance output coherence when diffused embeddings are processed by LLMs',
       ],
     },
     {
-      role: 'Full-Stack Developer',
-      company: 'Startup Inc',
-      period: '2022 - 2023',
-      description: 'Built scalable web applications using React, Node.js, and cloud infrastructure.',
+      role: 'Deep Learning Research Intern',
+      company: 'Carnegie Mellon University',
+      period: 'June 2023 - Present',
+      description: 'Conducting advanced research in Xu Lab under Professor Min Xu, focusing on deep learning applications for Cryo-Electron Tomography Classification.',
       achievements: [
-        'Developed features used by 50K+ active users',
-        'Improved application performance by 60%',
-        'Led migration to microservices architecture',
+        'Successfully implemented and optimized the "MemBrain" architecture using PyTorch',
+        'Incorporated novel enhancements for improved classification accuracy',
+        'Collaborating with cross-functional research teams for cellular structure analysis',
+      ],
+    },
+    {
+      role: 'AI Engineer',
+      company: 'Kluster',
+      period: 'September 2023 - December 2023',
+      description: 'Architected and deployed an AI-powered communication platform that simulates executive-level conversations.',
+      achievements: [
+        'Developed hybrid system combining prompt engineering and fine-tuning techniques',
+        'Created emotion-aware AI agent using sentiment analysis',
+        'Achieved 40% improvement in customer response rates',
+      ],
+    },
+    {
+      role: 'Machine Learning Engineer',
+      company: 'Unstudio.AI',
+      period: 'February 2023 - June 2023',
+      description: 'Spearheaded development and fine-tuning of Stable Diffusion models for product styling.',
+      achievements: [
+        'Improved generation quality by 60% through fine-tuning',
+        'Engineered end-to-end ML pipeline in cloud infrastructure, optimizing deployment efficiency by 75%',
+        'Developed CKPT to Diffusers conversion framework, reducing processing time by 40%',
+      ],
+    },
+    {
+      role: 'Data Engineer',
+      company: '31 Dynamics Research Centre Pvt. Ltd',
+      period: 'July 2022 - November 2022',
+      description: 'Implemented Vision Transformer architecture for real-time polyp detection in endoscopy videos.',
+      achievements: [
+        'Reduced workflow time by 80% with Vision Transformer implementation',
+        'Optimized data annotation and augmentation processes, increasing dataset quality by 65%',
+        'Led team of 3 engineers in developing automated data processing pipelines',
       ],
     },
   ];
 
   const education = [
     {
-      degree: 'Master of Science in Computer Science',
-      institution: 'University Name',
-      period: '2021 - 2023',
-      focus: 'Machine Learning & Computer Vision',
+      degree: 'Master of Science in Artificial Intelligence',
+      institution: 'University Of Bridgeport',
+      period: '2024 - 2026',
+      focus: 'Deep Learning, Computer Vision, Cloud Computing (GPA: 3.78)',
     },
     {
-      degree: 'Bachelor of Science in Computer Engineering',
-      institution: 'University Name',
-      period: '2017 - 2021',
-      focus: 'Software Engineering',
+      degree: 'Bachelor of Technology in Artificial Intelligence',
+      institution: 'Vidya Jyothi Institute of Technology, Aziz Nagar',
+      period: '2019 - 2023',
+      focus: 'Statistics, Data Science, AI, Machine Learning, Deep Learning (GPA: 7.72)',
     },
   ];
 
   const skills = {
-    'Machine Learning': ['PyTorch', 'TensorFlow', 'Scikit-learn', 'OpenCV', 'Hugging Face'],
-    'Programming': ['Python', 'JavaScript', 'TypeScript', 'Go', 'C++', 'SQL'],
-    'Web Development': ['React', 'Next.js', 'Node.js', 'Express', 'Tailwind CSS'],
-    'Tools & Cloud': ['Git', 'Docker', 'Kubernetes', 'AWS', 'GCP', 'Linux'],
-    'Data & ML Ops': ['Pandas', 'NumPy', 'MLflow', 'Weights & Biases', 'Apache Airflow'],
+    'Programming Languages': ['Python', 'C++', 'Java', 'Git'],
+    'ML/DL Frameworks': ['PyTorch', 'TensorFlow', 'Pandas', 'NumPy'],
+    'AI/ML Specializations': ['Deep Learning', 'NLP', 'Computer Vision', 'Machine Learning'],
+    'Cloud & Tools': ['AWS', 'GCP', 'Docker', 'VSCode', 'Jupyter', 'LaTeX'],
   };
 
   return (
