@@ -1,3 +1,5 @@
+import ParticleSystem from '@/components/ParticleSystem';
+
 export default function Resume() {
   const experience = [
     {
@@ -80,8 +82,9 @@ export default function Resume() {
   };
 
   return (
-    <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-12">
-      <div className="max-w-4xl mx-auto">
+    <main className="min-h-screen px-4 sm:px-6 lg:px-8 py-12 relative">
+      <ParticleSystem density={2} maxParticles={100} />
+      <div className="max-w-4xl mx-auto relative z-10">
         {/* Header */}
         <div className="mb-8">
           <div className="border border-green-500/30 rounded-lg p-6 bg-black/40 backdrop-blur-sm">
